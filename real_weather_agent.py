@@ -17,7 +17,7 @@ def greeting_tool():
 def weather_call_tool(city):
     print("Calling the Weather Computer for", city, "....")
 
-    url = "https://wttr.in/" + city + "?format=%t"
+    url = "https://wttr.in/" + city + "?format=%t+%w"
 
     try:
         response = requests.get(url)
@@ -29,14 +29,17 @@ def weather_call_tool(city):
 def clothing_advisor_tool(weather_text):
 
     temp_string = weather_text.replace("+","").replace("°C", "").strip()
+    # print(temp_string)
+    temp_wind = temp_string.split()
+    # print(temp_wind[0])
 
     try:
-        temp = int(temp_string)
+        temp = int(temp_wind[0])
     except:
         return "I am confused by the weather. Wear layers!"
     
     if temp < 10:
-        return "It is COLD! Wear a warm coat, hat, and gloves!"
+        return "It is COLD! Wear a warm coat, hat, and gloves! And it is windy hold on to your hat!"
     elif temp < 20:
         return "It is COOL. Wear a jacket or sweater!"
     elif temp < 30:
