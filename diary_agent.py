@@ -12,6 +12,7 @@ print("Diary Agent is running....")
 print("Let me read read what I wrote...")
 
 write_diary_tool("I love learning new things related to tech, specially related to AI.")
+write_diary_tool("My agent loves pizza!!")
 
 memory = read_tool()
 
