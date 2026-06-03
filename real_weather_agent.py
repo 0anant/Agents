@@ -45,7 +45,7 @@ def clothing_advisor_tool(weather_text):
         return "IT is HOT! Wear shorts and drink water!"
 
 def save_weather_tool(city, weather, advice):
-    with open("weather_diary.txt", "w") as file:
+    with open("weather_diary.txt", "a") as file:
         file.write("City:" + city + "\n")
         file.write("Weather:" + weather + "\n")
         file.write("Advice:" + advice + "\n")

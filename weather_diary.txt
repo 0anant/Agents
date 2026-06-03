@@ -2,3 +2,7 @@ City:kedarnath
 Weather:+6°C
 Advice:It is COLD! Wear a warm coat, hat, and gloves!
 ---
+City:Noida
+Weather:+42°C
+Advice:IT is HOT! Wear shorts and drink water!
+---
