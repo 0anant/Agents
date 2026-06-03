@@ -1,0 +1,4 @@
+City:kedarnath
+Weather:+6°C
+Advice:It is COLD! Wear a warm coat, hat, and gloves!
+---
