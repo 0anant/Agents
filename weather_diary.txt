@@ -38,3 +38,7 @@ City:Noida
 Weather:+42°C →8km/h
 Advice:IT is HOT! Wear shorts and drink water!
 ---
+City:Noida
+Weather:+37°C ←10km/h
+Advice:IT is HOT! Wear shorts and drink water!
+---
