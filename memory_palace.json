@@ -1,8 +1,4 @@
 {
-    "def find_memory_tool(key):_color": "    try:",
-    "def find_memory_tool(key):_pet": "        with open(\"memory_palace.json\", \"r\") as file:",
-    "Praveen_color": "Blue",
-    "Praveen_pet": "Tinku",
-    "Ram_color": "none",
-    "Ram_pet": "catty"
+    "Praveen_color": "BLue",
+    "Praveen_pet": "acat"
 }

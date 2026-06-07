@@ -62,6 +62,9 @@ pet = input("What is your pet's name ? (or 'none') ")
 if pet != "none":
     save_memory_tool(name + "_pet", pet)
 
+food = input("what is your favorite food?")
+save_memory_tool(name + "_food", food)
+
 
 print("\nLet me check my palace...")
 show_all_memories_tool()
