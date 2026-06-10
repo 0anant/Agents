@@ -83,7 +83,7 @@ def build_report(weather, browser_result, city):
 
     report = f"""
 {'='* 40}
-{greeting}
+{greeting}t
 {'='* 40}
 Location: {city}
 Weather: {weather}
